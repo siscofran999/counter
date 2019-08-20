@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">counter</string>
+    <string name="sliding_counter">Sliding Counter</string>
+</resources>
