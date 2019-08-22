@@ -34,16 +34,20 @@
         android:text="Started at 15:03"
         android:layout_centerHorizontal="true"
         android:gravity="center"
+        android:visibility="invisible"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="50dp"
         android:textSize="20sp"
         android:textColor="@android:color/black"/>
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
+    <com.stfalcon.swipeablebutton.SwipeableButton
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_switch"
+        app:textChecked="Slide to Stop"
+        app:textUnchecked="Slide to Start"
+        app:uncheckedBackground="@color/colorFalse"
+        app:checkedBackground="@color/colorTrue"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>
 

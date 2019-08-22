@@ -36,4 +36,6 @@ dependencies {
     implementation "android.arch.persistence.room:runtime:1.1.1"
     kapt "android.arch.persistence.room:compiler:1.1.1"
     implementation "android.arch.persistence.room:rxjava2:1.1.1"
+
+    implementation 'com.github.stfalcon:swipeable-button:0.1.0'
 }
